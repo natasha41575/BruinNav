@@ -1,0 +1,32 @@
+● MyMap: associate() and find()
+
+associate():
+The runtime of my associate function is O(logN), where N is the number of Key/Value pairs in the map.
+
+find():
+The runtime of my find function is O(logN), where N is the number of Key/Value pairs in the map.
+
+
+● AttractionMapper: init(), getGeoCoord()
+
+init():
+If there are N segments and a total of A attractions, the function runs in O(N*A*logA) time.
+
+getGeoCoord():
+If there are A attractions, getGeoCoord runs in O(logA) time.
+
+
+● SegmentMapper: init(), getSegments()
+
+init():
+If N is the number of segments and A is the total number of attractions, the runtime of this function is O((N+A)*log(N+A)).
+
+getSegments():
+If N is the number of segments and A is the total number of attractions, the runtime of this function is O(log(N+A)).
+
+
+● Navigator: navigate()
+
+navigate():
+If N is the number of segments and A is the total number of attractions, the runtime of this function is O((A+N)*log(A+N)).
+
